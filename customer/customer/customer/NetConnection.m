@@ -9,7 +9,8 @@
 #import "NetConnection.h"
 
 
-#define SUBMIT_URL @"http://www."
+#define SUBMIT_URL @"http://9.ikandou.com/api/login"
+
 
 @implementation NetConnection
 
@@ -23,6 +24,31 @@
 }
 
 
+- (NSString *)sendRequest:(NSString *) username Password: (NSString *) password {
+{
+    NSURL *url = [NSURL URLWithString:SUBMIT_URL];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    [request setHTTPMethod:@"POST"];
+    NSString *URLstr=@"";
+    URLstr = [URLstr stringByAppendingString:@"&username="];
+    URLstr = [URLstr stringByAppendingString:username];
+    URLstr = [URLstr stringByAppendingString:@"&password="];
+    URLstr = [URLstr stringByAppendingString:password];
+ 
+    NSData *requestBody = [URLstr dataUsingEncoding:NSUTF8StringEncoding];
+    [request setHTTPBody:requestBody];
+    NSURLResponse *response = NULL;
+    NSError *requestError = NULL;
+    NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&requestError];
+    NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding ];
+    return responseString;
+}
+
+
+
+
+
+/*
     
 - (NSString *)sendRequestSync
 {
@@ -49,5 +75,7 @@
     NSLog(@"response: %@", response);
     return response;
 }
+ 
+ */
     
 @end

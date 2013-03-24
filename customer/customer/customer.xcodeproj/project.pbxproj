@@ -23,6 +23,7 @@
 		1294322F16F5C2390014DBC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1294322D16F5C2390014DBC9 /* InfoPlist.strings */; };
 		1294323216F5C2390014DBC9 /* customerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1294323116F5C2390014DBC9 /* customerTests.m */; };
 		1294323D16F601050014DBC9 /* NetConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1294323C16F601050014DBC9 /* NetConnection.m */; };
+		5AA8E85A16FF506800465C0E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA8E85916FF506800465C0E /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		1294323116F5C2390014DBC9 /* customerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customerTests.m; sourceTree = "<group>"; };
 		1294323B16F601050014DBC9 /* NetConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetConnection.h; sourceTree = "<group>"; };
 		1294323C16F601050014DBC9 /* NetConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetConnection.m; sourceTree = "<group>"; };
+		5AA8E85916FF506800465C0E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA8E85A16FF506800465C0E /* Security.framework in Frameworks */,
 				1294320116F5C2380014DBC9 /* UIKit.framework in Frameworks */,
 				1294320316F5C2380014DBC9 /* Foundation.framework in Frameworks */,
 				1294320516F5C2380014DBC9 /* CoreGraphics.framework in Frameworks */,
@@ -90,6 +93,7 @@
 		129431F116F5C2380014DBC9 = {
 			isa = PBXGroup;
 			children = (
+				5AA8E85916FF506800465C0E /* Security.framework */,
 				1294320616F5C2380014DBC9 /* customer */,
 				1294322A16F5C2390014DBC9 /* customerTests */,
 				129431FF16F5C2380014DBC9 /* Frameworks */,
@@ -447,6 +451,7 @@
 				1294323716F5C2390014DBC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1294323816F5C2390014DBC9 /* Build configuration list for PBXNativeTarget "customerTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +460,7 @@
 				1294323A16F5C2390014DBC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

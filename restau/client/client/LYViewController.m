@@ -113,7 +113,7 @@
 
 //定义table的section数量
 -(NSInteger) numberOfSectionsInTableView:(UITableView *)tableView{
-    return 1;
+    return 2;
 }
 //定义table的section标题
 
@@ -129,7 +129,7 @@
 
 //定义table里每个section有几行
 -(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 3;
+    return 2;
 }
 
 -(UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{

@@ -10,4 +10,7 @@
 
 @interface NetConnection : NSObject
 
+
+- (NSString *) sendRequest:(NSString *) username Password: (NSString *) password;
+
 @end

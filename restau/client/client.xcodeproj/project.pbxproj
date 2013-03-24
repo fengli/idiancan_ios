@@ -54,6 +54,15 @@
 		5A792C9816FCBC2C000B8418 /* vin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A792C9716FCBC2C000B8418 /* vin.jpg */; };
 		5A792C9A16FCC20F000B8418 /* 酒水.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A792C9916FCC20F000B8418 /* 酒水.jpg */; };
 		5AA279E816FD06D700D97BEF /* LYRightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA279E716FD06D700D97BEF /* LYRightMenuViewController.m */; };
+		5AA8E85816FF402B00465C0E /* LYSubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA8E85716FF402B00465C0E /* LYSubmitViewController.m */; };
+		5AA8E86216FF50A300465C0E /* .localized in Resources */ = {isa = PBXBuildFile; fileRef = 5AA8E85C16FF50A300465C0E /* .localized */; };
+		5AA8E86316FF50A300465C0E /* CertificateSigningRequest.certSigningRequest in Resources */ = {isa = PBXBuildFile; fileRef = 5AA8E85D16FF50A300465C0E /* CertificateSigningRequest.certSigningRequest */; };
+		5AA8E86416FF50A300465C0E /* Screen Capture Tool_2013-03-22 21.03.56.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5AA8E85E16FF50A300465C0E /* Screen Capture Tool_2013-03-22 21.03.56.mov */; };
+		5AA8E86516FF50A300465C0E /* Screen Capture Tool_2013-03-24 06.52.30.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5AA8E85F16FF50A300465C0E /* Screen Capture Tool_2013-03-24 06.52.30.mov */; };
+		5AA8E86616FF50A300465C0E /* Screen Capture2013-03-21 22_00_04.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5AA8E86016FF50A300465C0E /* Screen Capture2013-03-21 22_00_04.mov */; };
+		5AA8E86716FF50A300465C0E /* 丽城餐馆的菜单.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5AA8E86116FF50A300465C0E /* 丽城餐馆的菜单.pdf */; };
+		5AA8E86916FF50BB00465C0E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA8E86816FF50BB00465C0E /* Security.framework */; };
+		5AA8E86C16FF517700465C0E /* CHKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA8E86B16FF517700465C0E /* CHKeychain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +142,17 @@
 		5A792C9916FCC20F000B8418 /* 酒水.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "酒水.jpg"; sourceTree = "<group>"; };
 		5AA279E616FD06D700D97BEF /* LYRightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRightMenuViewController.h; sourceTree = "<group>"; };
 		5AA279E716FD06D700D97BEF /* LYRightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRightMenuViewController.m; sourceTree = "<group>"; };
+		5AA8E85616FF402B00465C0E /* LYSubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSubmitViewController.h; sourceTree = "<group>"; };
+		5AA8E85716FF402B00465C0E /* LYSubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSubmitViewController.m; sourceTree = "<group>"; };
+		5AA8E85C16FF50A300465C0E /* .localized */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .localized; sourceTree = "<group>"; };
+		5AA8E85D16FF50A300465C0E /* CertificateSigningRequest.certSigningRequest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CertificateSigningRequest.certSigningRequest; sourceTree = "<group>"; };
+		5AA8E85E16FF50A300465C0E /* Screen Capture Tool_2013-03-22 21.03.56.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Capture Tool_2013-03-22 21.03.56.mov"; sourceTree = "<group>"; };
+		5AA8E85F16FF50A300465C0E /* Screen Capture Tool_2013-03-24 06.52.30.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Capture Tool_2013-03-24 06.52.30.mov"; sourceTree = "<group>"; };
+		5AA8E86016FF50A300465C0E /* Screen Capture2013-03-21 22_00_04.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Capture2013-03-21 22_00_04.mov"; sourceTree = "<group>"; };
+		5AA8E86116FF50A300465C0E /* 丽城餐馆的菜单.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "丽城餐馆的菜单.pdf"; sourceTree = "<group>"; };
+		5AA8E86816FF50BB00465C0E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5AA8E86A16FF517700465C0E /* CHKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHKeychain.h; path = ../../../../Documents/BusyYoYo/Classes/CHKeychain.h; sourceTree = "<group>"; };
+		5AA8E86B16FF517700465C0E /* CHKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHKeychain.m; path = ../../../../Documents/BusyYoYo/Classes/CHKeychain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA8E86916FF50BB00465C0E /* Security.framework in Frameworks */,
 				5A792C1016FCB648000B8418 /* UIKit.framework in Frameworks */,
 				5A792C1216FCB648000B8418 /* Foundation.framework in Frameworks */,
 				5A792C1416FCB648000B8418 /* CoreGraphics.framework in Frameworks */,
@@ -162,6 +183,9 @@
 		5A792C0316FCB648000B8418 = {
 			isa = PBXGroup;
 			children = (
+				5AA8E86A16FF517700465C0E /* CHKeychain.h */,
+				5AA8E86B16FF517700465C0E /* CHKeychain.m */,
+				5AA8E86816FF50BB00465C0E /* Security.framework */,
 				5A792C4A16FCB684000B8418 /* diagram.png */,
 				5A792C4B16FCB684000B8418 /* disclosure.png */,
 				5A792C4C16FCB685000B8418 /* disclosure@2x.png */,
@@ -194,6 +218,7 @@
 		5A792C0E16FCB648000B8418 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AA8E85B16FF50A300465C0E /* Desktop */,
 				5A792C0F16FCB648000B8418 /* UIKit.framework */,
 				5A792C1116FCB648000B8418 /* Foundation.framework */,
 				5A792C1316FCB648000B8418 /* CoreGraphics.framework */,
@@ -213,6 +238,8 @@
 				5A792C7D16FCB70D000B8418 /* ColoredViewController.h */,
 				5A792C7E16FCB70D000B8418 /* ColoredViewController.m */,
 				5A792C2716FCB648000B8418 /* MainStoryboard.storyboard */,
+				5AA8E85616FF402B00465C0E /* LYSubmitViewController.h */,
+				5AA8E85716FF402B00465C0E /* LYSubmitViewController.m */,
 				5AA279E616FD06D700D97BEF /* LYRightMenuViewController.h */,
 				5AA279E716FD06D700D97BEF /* LYRightMenuViewController.m */,
 				5A792C9916FCC20F000B8418 /* 酒水.jpg */,
@@ -285,6 +312,19 @@
 				5A792C6816FCB685000B8418 /* SASlideMenuViewController.m */,
 			);
 			path = SASlideMenu;
+			sourceTree = "<group>";
+		};
+		5AA8E85B16FF50A300465C0E /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				5AA8E85C16FF50A300465C0E /* .localized */,
+				5AA8E85D16FF50A300465C0E /* CertificateSigningRequest.certSigningRequest */,
+				5AA8E85E16FF50A300465C0E /* Screen Capture Tool_2013-03-22 21.03.56.mov */,
+				5AA8E85F16FF50A300465C0E /* Screen Capture Tool_2013-03-24 06.52.30.mov */,
+				5AA8E86016FF50A300465C0E /* Screen Capture2013-03-21 22_00_04.mov */,
+				5AA8E86116FF50A300465C0E /* 丽城餐馆的菜单.pdf */,
+			);
+			path = Desktop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,6 +424,12 @@
 				5A792C9616FCBA9E000B8418 /* 水煮牛肉.jpg in Resources */,
 				5A792C9816FCBC2C000B8418 /* vin.jpg in Resources */,
 				5A792C9A16FCC20F000B8418 /* 酒水.jpg in Resources */,
+				5AA8E86216FF50A300465C0E /* .localized in Resources */,
+				5AA8E86316FF50A300465C0E /* CertificateSigningRequest.certSigningRequest in Resources */,
+				5AA8E86416FF50A300465C0E /* Screen Capture Tool_2013-03-22 21.03.56.mov in Resources */,
+				5AA8E86516FF50A300465C0E /* Screen Capture Tool_2013-03-24 06.52.30.mov in Resources */,
+				5AA8E86616FF50A300465C0E /* Screen Capture2013-03-21 22_00_04.mov in Resources */,
+				5AA8E86716FF50A300465C0E /* 丽城餐馆的菜单.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +478,8 @@
 				5A792C7F16FCB70D000B8418 /* ColoredViewController.m in Sources */,
 				5A792C8216FCB71E000B8418 /* LYFirstViewController.m in Sources */,
 				5AA279E816FD06D700D97BEF /* LYRightMenuViewController.m in Sources */,
+				5AA8E85816FF402B00465C0E /* LYSubmitViewController.m in Sources */,
+				5AA8E86C16FF517700465C0E /* CHKeychain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
